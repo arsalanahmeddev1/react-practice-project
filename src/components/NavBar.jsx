@@ -8,7 +8,7 @@ const NavBar = () => {
        {
         NavLinks.map((navLink => {
           return (
-            <li>
+            <li key={navLink.id}>
               <a href="">{navLink.title}</a>
             </li>
           )

@@ -1,12 +1,16 @@
 // import styles from './style'
-import { Header,Footer, TodoApp } from './components'
-
+import { useState } from 'react'
+import { Header, TodoAdd, TodoItems, } from './components'
 const App = () => {
+
+  const [addTodo, setTodo] = useState()
   return (
     <div className={``}>
       <Header />
-      <TodoApp />
-      <Footer />
+      <div className='container mt-[30px] m-auto w-[100%]'>
+        <TodoAdd/>
+        <TodoItems />
+      </div>
     </div>
   )
 }

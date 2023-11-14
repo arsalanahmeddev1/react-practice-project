@@ -1,10 +1,12 @@
 import Header from './Header';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import TodoApp from './TodoApp';
+import TodoAdd from './TodoAdd';
+import TodoItems from './TodoItems';
 export {
   Header,
-  TodoApp,
+  TodoAdd,
+  TodoItems,
   NavBar,
   Footer,
 }
