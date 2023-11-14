@@ -1,12 +1,19 @@
 import Header from './Header';
+import AppName from './AppName';
+import AddTodo from './AddTodo';
+import TodoItem from './TodoItem';
+import TodoItems from './TodoItems';
+import Video from './Video';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import TodoAdd from './TodoAdd';
-import TodoItems from './TodoItems';
 export {
   Header,
-  TodoAdd,
+  AppName,
+  AddTodo,
+  TodoItem,
   TodoItems,
+  Video,
   NavBar,
   Footer,
+
 }
